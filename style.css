@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 0.4rem;
+    font-size: 3rem;
+}
+
+.section-content{
+    height: 50vh;
+    background-color: #e6caff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#subtitle{
+    margin-top: 0.4rem;
+    font-size: 1.3rem;
+
+}
+
+.circle-image{
+    border-radius: 50%;
+    height: 8rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #da8efc;
+    margin-bottom: 2rem;
+}
+
+.s2{
+    background-color: #f5f9f7;
+    justify-content: space-evenly;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s3{
+    background-color: #ebddfe;
+    justify-content: space-around;
+    height: initial;
+}
+
+.s3 .title{
+    margin: 3rem;
+}
+
+.container-skills{
+    width: 95%;
+    margin: 0 2rem;
+}
+
+.skill-content-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2.5rem;
+    justify-content: center;
+}
+
+.image-skill-containter{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.image-skill{
+    height: 9.5rem;
+    width: 11.5rem;
+    background-color: #fcfaff;
+    border-radius: 35%;
+}
+
+.image-skill:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.content-skills h2{
+    color: #b825f8;
+}
+
+.s4{
+    background-color: #f5f9f7;
+    justify-content: flex-start;
+    height: initial;
+    padding-bottom: 3rem;
+}
+
+.s4 .title{
+    margin: 3rem;
+}
+
+#button-email{
+    padding: 1rem 2rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: #da8efc;
+    font-size: 1rem;
+}
+
+#button-email:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.s5{
+    height: 20vh;
+    background-color: #ebddfe;
+}
+
+.social-media{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.s5 i{
+    font-size: 35px;
+}
+
+.fa-facebook{
+    color: dodgerblue;
+}
+
+.fa-facebook:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.fa-instagram{
+    color: #F56040;
+}
+
+.fa-instagram:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.fa-linkedin{
+    color: #0077B5;
+}
+
+.fa-linkedin:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+
+@media  screen and (max-width: 1080px) {
+    .skill-content-container{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .sk2{
+        flex-direction: column-reverse;
+    }
+
+    .image-skill-containter{
+        width: 100%;
+    }
+
+    .content-skills h2{
+        text-align: center;
+    }
+
+}
