@@ -163,6 +163,15 @@
     transition: 0.2s;
 }
 
+.fa-circle{
+    color: #d1d1d1;
+    margin: 2em 0.2em 0em;
+}
+
+.fa-circle:hover{
+    color: #797979;
+    cursor: pointer;
+}
 
 @media  screen and (max-width: 1080px) {
     .skill-content-container{
